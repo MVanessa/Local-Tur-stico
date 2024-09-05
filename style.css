@@ -10,7 +10,7 @@
 
 body {
   width: 1120px;
-  margin: 48px auto;
+  margin: 48px auto 65px;
   
 }
 
@@ -30,12 +30,15 @@ h1 {
 }
 
 h2 {
+  
   color: #1B1B1B;
   font-size: 32px;
   font-weight: bold;
 }
 
 h3{
+  margin-top: 20px;
+  margin-left: 8px;
   color: #1B1B1B;
   font-size: 28px;
   font-weight: bold;
@@ -44,6 +47,8 @@ h3{
 p{
   color: #333333;
   font-size: 16px;
+  margin-top: 8px;
+  
 }
 
 #subtitle{
@@ -66,9 +71,32 @@ p{
   margin-top: 48px;
 }
 
+.card p {
+  margin-top: 4px;
+}
 img {
   border-radius: 28px;
   width: 100%;
+}
+
+#blue {
+  color: #0C51A7;
+  font-weight: bold;
+}
+
+#purple {
+  color: #591B98;
+  font-weight: bold;
+}
+
+#pink {
+  color: #E5245E;
+  font-weight: bold;
+}
+
+#orange {
+  color: #E95E10;
+  font-weight: bold;
 }
 
 ul li::marker {
@@ -82,6 +110,23 @@ ul li::marker {
   background-color: #d9d9d9;
 }
 
+#fim {
+  margin-bottom: 65px;
+  text-align: center;
+}
+
+footer{
+  color: #333333;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
 footer img {
+  vertical-align: middle;
   width: 16px;
+}
+
+#bom {
+  font-weight: bold;
+  margin-top: 30px;
 }
